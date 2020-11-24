@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Filmoholics: Movies</title>
+	<!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link href="movies.css" rel="stylesheet">
+  <link href="slick-theme.css" rel="stylesheet">
+  <link href="slick.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" integrity="sha512-RM/doPYp+T5Q02bYJVli4yaAqfpFMIGXNbdFNJJRdiWh4mumaGRVCuXPD4ehheLUqATm/atJjOud6BC3x+KPJQ==" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/f58878145b.js"></script>
+</head>
+<body>
+	<!-- Header -->
+	<nav class="navbar nb pt-4 pb-5">
+        <a class="navbar-brand nbb" href="index.html">Filmoholics</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit" style="font-family: 'Anton', sans-serif;">Search</button>
+        </form>
+    </nav>
+
+    <!-- Body -->
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-8 ">
+                <h2 class="carouselCardHeader">Popular Blogs: </h2>
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="coco.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ctext">
+                          <h5>First slide label</h5>
+                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="casablanca.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ctext">
+                          <h5>Second slide label</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="starwars.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ctext">
+                          <h5>Third slide label</h5>
+                          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <h2 class="carouselCardHeader">Popular Movies: </h2>
+                <ul class="list-group">
+                    <a href="#"><li class="list-group-item d-flex justify-content-between align-items-center listcss">
+                     Cras justo odio
+                      <span class="badge badge-warning badge-pill">14</span>
+                    </li></a>
+                    <a href="#"><li class="list-group-item d-flex justify-content-between align-items-center listcss">
+                      Dapibus ac facilisis in
+                      <span class="badge badge-warning badge-pill">2</span>
+                    </li>
+                    <a href="#"><li class="list-group-item d-flex justify-content-between align-items-center listcss">
+                      Morbi leo risus
+                      <span class="badge badge-warning badge-pill">1</span>
+                    </li></a>
+
+                    <a href="#"><li class="list-group-item d-flex justify-content-between align-items-center listcss">
+                        Morbi leo risus
+                        <span class="badge badge-warning badge-pill">1</span>
+                    </li></a>
+
+                    <a href="#"><li class="list-group-item d-flex justify-content-between align-items-center listcss">
+                        Morbi leo risus
+                        <span class="badge badge-warning badge-pill">1</span>
+                    </li></a>
+                    <a href="#"><li class="list-group-item d-flex justify-content-between align-items-center listcss">
+                        Morbi leo risus
+                        <span class="badge badge-warning badge-pill">1</span>
+                    </li></a>
+                    <a href="#"><li class="list-group-item d-flex justify-content-between align-items-center listcss">
+                        Morbi leo risus
+                        <span class="badge badge-warning badge-pill">1</span>
+                    </li></a>
+                  </ul>
+            </div>
+            <div class="col-lg-7">
+              <h2 class="carouselCardHeader mb-n5 mt-5">Top News: </h2>
+              <div class="slider-area slider">
+                <div><a href="#"><img src="tenet_news.jpg" alt=""></a></div>
+                <div><a href="#"><img src="news2.jpg" alt=""></a></div>
+                <div><a href="#"><img src="martin_news.jpg" alt=""></a></div>
+              </div>
+            </div>
+            <div class="col-5">
+
+            </div>
+            <div class="col-12  d-lg-none">
+              <h2 class="carouselCardHeader mb-n5 mt-5">Your Watchlist: </h2>
+              <section class="regular slider">
+                <div>
+                  <img src="a_beautiful_mind.jpg">
+                </div>
+                <div>
+                  <img src="agantuk.jpg">
+                </div>
+                <div>
+                  <img src="inception.jpg">
+                </div>
+                <div>
+                  <img src="meghe_dhaka_tara.jpg">
+                </div>
+                <div>
+                  <img src="shabdo.jpg">
+                </div>
+                <div>
+                  <img src="sholay.jpg">
+                </div>
+                <div>
+                  <img src="the_prestige.jpg">
+                </div>
+              </section>
+            </div>
+            <div class="col-12  d-none d-lg-block">
+              <h2 class="carouselCardHeader mb-n5 mt-5">Your Watchlist: </h2>
+              <section class="center slider">
+                <div>
+                  <img src="a_beautiful_mind.jpg">
+                </div>
+                <div>
+                  <img src="agantuk.jpg">
+                </div>
+                <div>
+                  <img src="inception.jpg">
+                </div>
+                <div>
+                  <img src="meghe_dhaka_tara.jpg">
+                </div>
+                <div>
+                  <img src="shabdo.jpg">
+                </div>
+                <div>
+                  <img src="sholay.jpg">
+                </div>
+                <div>
+                  <img src="the_prestige.jpg">
+                </div>
+              </section>
+            </div>
+            <div class="col-12  d-lg-none">
+              <h2 class="carouselCardHeader mb-n5 mt-5">Watched: </h2>
+              <section class="regular slider">
+                <div>
+                  <img src="a_beautiful_mind.jpg">
+                </div>
+                <div>
+                  <img src="agantuk.jpg">
+                </div>
+                <div>
+                  <img src="inception.jpg">
+                </div>
+                <div>
+                  <img src="meghe_dhaka_tara.jpg">
+                </div>
+                <div>
+                  <img src="shabdo.jpg">
+                </div>
+                <div>
+                  <img src="sholay.jpg">
+                </div>
+                <div>
+                  <img src="the_prestige.jpg">
+                </div>
+              </section>
+            </div>
+            <div class="col-12  d-none d-lg-block">
+              <h2 class="carouselCardHeader mb-n5 mt-5">Watched: </h2>
+              <section class="center slider">
+                <div>
+                  <img src="a_beautiful_mind.jpg">
+                </div>
+                <div>
+                  <img src="agantuk.jpg">
+                </div>
+                <div>
+                  <img src="inception.jpg">
+                </div>
+                <div>
+                  <img src="meghe_dhaka_tara.jpg">
+                </div>
+                <div>
+                  <img src="shabdo.jpg">
+                </div>
+                <div>
+                  <img src="sholay.jpg">
+                </div>
+                <div>
+                  <img src="the_prestige.jpg">
+                </div>
+              </section>
+            </div>
+            <div class="col-12  d-lg-none pb-5">
+              <h2 class="carouselCardHeader mb-n5 mt-5">Recommended: </h2>
+              <section class="regular slider">
+                <div>
+                  <img src="a_beautiful_mind.jpg">
+                </div>
+                <div>
+                  <img src="agantuk.jpg">
+                </div>
+                <div>
+                  <img src="inception.jpg">
+                </div>
+                <div>
+                  <img src="meghe_dhaka_tara.jpg">
+                </div>
+                <div>
+                  <img src="shabdo.jpg">
+                </div>
+                <div>
+                  <img src="sholay.jpg">
+                </div>
+                <div>
+                  <img src="the_prestige.jpg">
+                </div>
+              </section>
+            </div>
+            <div class="col-12  d-none d-lg-block pb-5">
+              <h2 class="carouselCardHeader mb-n5 mt-5">Recommended: </h2>
+              <section class="center slider">
+                <div>
+                  <img src="a_beautiful_mind.jpg">
+                </div>
+                <div>
+                  <img src="agantuk.jpg">
+                </div>
+                <div>
+                  <img src="inception.jpg">
+                </div>
+                <div>
+                  <img src="meghe_dhaka_tara.jpg">
+                </div>
+                <div>
+                  <img src="shabdo.jpg">
+                </div>
+                <div>
+                  <img src="sholay.jpg">
+                </div>
+                <div>
+                  <img src="the_prestige.jpg">
+                </div>
+              </section>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg border-0 mt-n3 exp">
+      <div class="mx-auto text-center" style="font-family: 'Anton', sans-serif;">
+        &copy; July, 2020. All rights reserved.<br/>
+        Developed by <a href="#" style="color: rgb(46, 46, 47);">Sanket Sarkar</a> with <i class="fas fa-heart" style="color: red;"></i> & <i class="fas fa-coffee" style="color: saddlebrown;"></i>.      
+      </div>
+    </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="slick.js"></script>
+    <script src="custom.js"></script>
+</body>
+</html>

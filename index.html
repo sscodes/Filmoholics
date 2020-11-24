@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Filmoholics</title>
+	<!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" integrity="sha512-RM/doPYp+T5Q02bYJVli4yaAqfpFMIGXNbdFNJJRdiWh4mumaGRVCuXPD4ehheLUqATm/atJjOud6BC3x+KPJQ==" crossorigin="anonymous" />
+	<script src="https://kit.fontawesome.com/f58878145b.js"></script>
+</head>
+<body>
+	<!-- Header -->
+	<nav class="navbar navbar-expand-lg nb">
+		<a class="navbar-brand nbb" href="#">Filmoholics</a>
+		<div class="abc">
+			<button type="button" class="login mr-1 btn" data-toggle="modal" data-target="#exampleModal1">
+				Login
+			</button>
+			<button type="button" class="login btn" data-toggle="modal" data-target="#exampleModal2">
+				Sign Up
+			</button>
+		</div>
+		<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+			  <div class="modal-content modalcustom">
+				<div class="modal-header">
+				  <h5 class="modal-title modlab" id="exampleModalLabel">Login</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<label style="color: gold;" for="uname" class="mt-3 mb-n5">Username:</label><br>
+					<input type="text" id="uname" name="uname"><br>
+					<label style="color: gold;" for="emailid" class="mt-3 mb-n5">Email:</label><br>
+					<input type="email" id="emailid" name="emailid">
+					<label style="color: gold;" for="phnum" class="mt-3 mb-n5">Phone Number(Optional):</label><br>
+					<input type="number" id="phnum" name="phnum">
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-warning" data-dismiss="modal" style="font-family: 'Anton', sans-serif;">Login</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+			  <div class="modal-content modalcustom">
+				<div class="modal-header">
+				  <h5 class="modal-title modlab" id="exampleModalLabel">Sign Up</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<label style="color: gold;" for="name" class="mt-3 mb-n5">Name:</label><br>
+					<input type="text" id="name" name="name"><br>
+					<label style="color: gold;" for="uname" class="mt-3 mb-n5">Username:</label><br>
+					<input type="text" id="uname" name="uname"><br>
+					<label style="color: gold;" for="emailid" class="mt-3 mb-n5">Email:</label><br>
+					<input type="email" id="emailid" name="emailid">
+					<label style="color: gold;" for="phnum" class="mt-3 mb-n5">Phone Number(Optional):</label><br>
+					<input type="number" id="phnum" name="phnum">
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-warning" data-dismiss="modal" style="font-family: 'Anton', sans-serif;">Sign Up</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</nav>
+	<!-- Body -->
+	<div class="pricing-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="single-price pt-5">
+						<div class="price-header pt-5">
+							<h3 class="title" style="color: black;">Movies</h3>
+						</div>
+						
+						<a href="movies.html">Go</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-price pt-5">
+						<div class="price-header pt-5">
+							<h3 class="title" style="color: black;">Web Series</h3>
+						</div>
+						<a href="#">Go</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-price pt-5">
+						<div class="price-header pt-5">
+							<h3 class="title" style="color: black;">Sitcoms</h3>
+						</div>
+						<a href="#">Go</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <nav class="navbar navbar-expand-lg border-0 mt-n3 exp">
+      <div class="mx-auto text-center" style="font-family: 'Anton', sans-serif;">
+        &copy; July, 2020. All rights reserved.<br/>
+        Developed by <a href="#" style="color: rgb(46, 46, 47);">Sanket Sarkar</a> with <i class="fas fa-heart" style="color: red;"></i> & <i class="fas fa-coffee" style="color: saddlebrown;"></i>.      
+      </div>
+    </nav>
+</body>
+</html>

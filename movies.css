@@ -1,0 +1,91 @@
+body {
+	background: rgb(46, 46, 47);
+}
+
+nav a:hover
+{
+	color: black;
+}
+.nbb
+{
+	color: black;
+	padding: 10px 10px 10px 10px;
+	border: 5px gold solid;
+	border-radius: 25px;
+	background-color: gold;
+	font-family: 'Anton', sans-serif;
+}
+.box
+{
+    border: 1px white solid;
+    height: 500px;
+}
+.ctext
+{
+    background-color: black;
+    opacity: 0.7;
+    font-family: 'Anton', sans-serif;
+}
+
+.carouselCardHeader
+{
+    color: gold;
+    font-family: 'Anton', sans-serif;
+}
+
+.listcss
+{
+    background: rgb(46, 46, 47);
+    color: white;
+    border-color: gold;
+}
+
+div ul a:hover
+{
+    text-decoration: none;
+    
+}
+
+div ul a li:hover
+{
+    background-color: rgb(80, 80, 83);
+}
+* {
+box-sizing: border-box;
+}
+
+.slider {
+    margin: 75px auto;
+}
+
+.slick-slide {
+margin: 0px 20px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black;
+}
+
+
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: .2;
+}
+
+.slick-active {
+opacity: .5;
+}
+
+.slick-current {
+opacity: 1;
+}
+
+.exp
+{
+    background: gold;
+}
